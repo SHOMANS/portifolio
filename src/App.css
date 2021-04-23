@@ -3,3 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #001d27;
+  overflow: hidden;
+  animation: coloring 5s ease-in-out 1 forwards;
+}
+
+@keyframes coloring {
+  0% {
+    background-color: #000000;
+  }
+  30% {
+    background-color: #16313a;
+
+  }
+  100% {
+    background-color: #001d27;
+  }
+}
